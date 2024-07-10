@@ -1,0 +1,85 @@
+.container {
+  display: flex;
+  flex-flow: column ;
+  gap: 1vh;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 100%;
+  padding-bottom: 40px;
+}
+
+.title {
+  margin-top: 5vh;
+  font-size: 20px;
+  font-weight: 600;
+  color: #192135;
+}
+
+.submit {
+  cursor: pointer;
+
+  margin-bottom: 1px;
+  padding: 1.2vh 2vh;
+
+  font-size: 14px;
+  color: white;
+  text-align: center;
+
+  background-color: #192135;
+  border: none;
+  border-radius: 5px;
+
+  transition-duration: 300ms;
+}
+
+.no_data {
+  padding-top: 32.5vh;
+  font-size: 12px;
+  font-weight: 600;
+  color: #192135;
+}
+
+.content_container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content{
+  margin-top: 2vh;
+
+  font-size: 16px;
+  font-weight: 600;
+  color: #192135;
+  text-align: center;
+}
+
+.comparisonGrid {
+  display: grid;
+  grid-template-columns:  repeat(3, 1fr); /* Até 4 colunas */
+  gap: 40px;
+  
+  max-width: 1200px; /* Ajuste conforme necessário */
+  margin: 0 auto;
+  padding: 0;
+}
+
+@media (width <= 1200px) {
+  .comparisonGrid {
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas em telas menores */
+  }
+}
+
+@media (width <= 900px) {
+  .comparisonGrid {
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas em telas menores */
+  }
+}
+
+@media (width <= 600px) {
+  .comparisonGrid {
+    grid-template-columns: 1fr; /* 1 coluna em telas menores */
+  }
+}

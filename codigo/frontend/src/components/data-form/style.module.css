@@ -1,0 +1,71 @@
+.data_form {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1vh;
+}
+
+input, select {
+  margin-bottom: 2vh;
+  padding: 1.2vh;
+
+  font-size: 14px;
+  color: #192135;
+  text-align: left;
+
+  background-color: #f6f6f6;
+  border: solid 1px black;
+  border-radius: 5px;
+}
+
+.input_file {
+  padding: 0;
+  color: #fff;
+  background-color: #fff;
+  border: none;
+}
+
+.input_file::file-selector-button {
+  cursor: pointer;
+
+  padding: 1.2vh;
+
+  font-size: 14px;
+  color: white;
+
+  background-color: #192135;
+  border: none;
+  border-radius: 5px;
+
+  transition-duration: 300ms;
+}
+
+.input_file::file-selector-button:hover {
+  background-color: #3e517e;
+  transition-duration: 300ms;
+}
+
+.label {
+  font-weight: 600;
+  color: #192135;
+}
+
+.submit {
+  cursor: pointer;
+
+  padding: 1.2vh 2vh;
+
+  font-size: 14px;
+  color: white;
+  text-align: center;
+
+  background-color: #192135;
+  border: none;
+  border-radius: 5px;
+
+  transition-duration: 300ms;
+}
+
+.submit:hover {
+  background-color: #3e517e;
+  transition-duration: 300ms;
+}

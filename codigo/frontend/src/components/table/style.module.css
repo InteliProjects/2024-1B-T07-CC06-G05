@@ -1,0 +1,32 @@
+/* Estilos base para a tabela */
+table {
+  overflow: hidden;
+
+  width: 94%; /* Ajuste para 94% da largura do container */
+  margin: 0 auto; /* Centralizar a tabela */
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.9em;
+  color: #fff; /* Texto branco */
+
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgb(0 0 0 / 30%);
+}
+
+th,
+td {
+  width:30%;
+  padding: 12px 15px;
+  text-align: left;
+  background-color: #2e354a; /* Fundo cinza escuro */
+}
+
+/* Estilo para o cabeçalho da tabela */
+th {
+  background-color: #192135; /* Cabeçalho mais escuro */
+}
+
+/* Estilo zebra e hover para as linhas */
+tr {
+  border-bottom: 1px solid #444;
+}

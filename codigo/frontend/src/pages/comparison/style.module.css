@@ -1,0 +1,13 @@
+.dashboard {
+  display: flex;
+  flex-flow: column;
+  gap: 2vw;
+  padding: 3vh 0;
+}
+
+.data_and_results {
+  display: flex;
+  flex-flow: row;
+  gap: 2vw;
+  padding: 0 3vw;
+}

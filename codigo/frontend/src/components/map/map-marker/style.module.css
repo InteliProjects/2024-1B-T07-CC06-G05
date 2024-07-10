@@ -1,0 +1,43 @@
+.marker {
+  cursor: pointer;
+
+  position: relative;
+  transform: translate(-50%, -50%);
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 8px 12px;
+
+  color: white;
+
+  background-color: #f44336;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 30%);
+
+  transition: transform 0.2s;
+}
+
+.marker:hover {
+  transform: scale(1.1);
+}
+
+.marker::after {
+  content: "";
+
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 0;
+  height: 0;
+
+  border: 10px solid transparent;
+  border-top-color: #f44336;
+}
+
+.label {
+  font-size: 14px;
+}

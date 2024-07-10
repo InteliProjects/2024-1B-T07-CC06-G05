@@ -1,0 +1,21 @@
+.submit {
+  cursor: pointer;
+
+  width: 100%;
+  padding: 1.2vh 2vh;
+
+  font-size: 14px;
+  color: white;
+  text-align: center;
+
+  background-color: #192135;
+  border: none;
+  border-radius: 5px;
+
+  transition-duration: 300ms;
+}
+
+.submit:hover {
+  background-color: #3e517e;
+  transition-duration: 300ms;
+}

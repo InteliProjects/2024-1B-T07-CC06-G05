@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  align-items: center; /* Alinha os itens verticalmente ao centro */
+  justify-content: space-between; /* Espaça os itens ao longo do eixo horizontal */
+
+  width: 100%;
+  height: 80px;
+  padding: 0 2vw; /* Adiciona um pouco de espaço nos lados */
+  
+  text-align: center;
+  
+  background-color: #192135;
+}
+
+.logo {
+  height: 100%;
+}
+
+.menu {
+  display: flex; /* Flexbox para o menu para alinhamento dos botões */
+  gap: 2vw;
+  align-items: center; /* Alinha os botões verticalmente ao centro */
+}
